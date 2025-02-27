@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.parent {
+    height: 50vh;
+    width: 20vw;
+    position: relative;
+    left: 700px;
+    top: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 3px rgb(88, 86, 86);
+}
+
+.pic {
+    position: relative;
+    left: 35px;
+    top: 10px;
+}
+
+.net {
+    position: relative;
+    border: solid black 1px;
+    border-radius: 35px;
+    width: 3.4vw;
+    height: 3vh;
+    top: 18px;
+    text-align: center;
+    left: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.mov {
+    position: relative;
+    border: solid black 1px;
+    border-radius: 35px;
+    width: 3.4vw;
+    height: 3vh;
+    left: 15px;
+    top: 18px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.join {
+    position: relative;
+    border: solid rgb(84, 84, 246) 2px;
+    border-radius: 35px;
+    background-color: rgb(216, 216, 241);
+    width: 5vw;
+    height: 4vh;
+    left: 137px;
+    top: 55px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text {
+    position: relative;
+    width: 18vw;
+    top: 36px;
+    font-family: sans-serif;
+    font-size: 17px;
+    left: 10px;
+    color: rgb(109, 107, 107);
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pic img {
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.net:hover,
+.mov:hover,
+.join:hover {
+    background-color: white;
+    border-color: black;
+    transform: scale(1.05);
+}
